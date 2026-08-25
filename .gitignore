@@ -1,0 +1,41 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Fichiers generes par les IDE a partir du projet Unity
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vscode/
+
+# Sorties de build des outils .NET (Tools/)
+[Bb]in/
+[Oo]bj/
+
+# Copies de sauvegarde faites a la main pendant le developpement
+/_backup_editor/
+
+# Crashs et OS
+sysinfo.txt
+*.stackdump
+.DS_Store
+Thumbs.db
