@@ -39,3 +39,8 @@ sysinfo.txt
 *.stackdump
 .DS_Store
 Thumbs.db
+
+# Maillages produits en essayant l'outil : régénérés à chaque usage, aucun
+# intérêt à les versionner.
+/Assets/GeneratedMeshes/
+/Assets/GeneratedMeshes.meta
