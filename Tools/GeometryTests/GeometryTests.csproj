@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>GeometryTests</AssemblyName>
+    <RootNamespace>LevelDesignTools.Tests</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <NoWarn>CS0168;CS0219</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      On compile LE fichier du projet Unity, pas une copie. Une copie diverge en silence et le
+      jour ou elle diverge, les tests passent au vert sur du code que personne n'execute.
+    -->
+    <Compile Include="../../Assets/Editor/PolygonTriangulator.cs" Link="PolygonTriangulator.cs" />
+    <Compile Include="../../Assets/Editor/PanelMeshBuilder.cs" Link="PanelMeshBuilder.cs" />
+  </ItemGroup>
+
+</Project>

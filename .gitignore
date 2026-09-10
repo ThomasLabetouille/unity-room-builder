@@ -9,10 +9,12 @@
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 
-# Fichiers generes par les IDE a partir du projet Unity
-*.csproj
-*.unityproj
-*.sln
+# Fichiers generes par les IDE a partir du projet Unity.
+# Ancres a la racine : Tools/GeometryTests et Tools/MutationTests contiennent
+# des .csproj ecrits a la main, qui eux doivent etre versionnes.
+/*.csproj
+/*.unityproj
+/*.sln
 *.suo
 *.user
 *.userprefs
@@ -40,7 +42,7 @@ sysinfo.txt
 .DS_Store
 Thumbs.db
 
-# Maillages produits en essayant l'outil : régénérés à chaque usage, aucun
-# intérêt à les versionner.
+# Maillages produits en essayant l'outil : regeneres a chaque usage, aucun
+# interet a les versionner.
 /Assets/GeneratedMeshes/
 /Assets/GeneratedMeshes.meta
